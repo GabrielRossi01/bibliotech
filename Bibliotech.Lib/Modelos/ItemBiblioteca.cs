@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Bibliotech.Lib.Modelos
 {
     file class AuxiliarInterno
     { 
-        public string Info { get; set; } = "Classe vísivl apenas neste arquivo";
+        public string Info { get; set; } = "Classe visível apenas neste arquivo";
     }
 
     public abstract class ItemBiblioteca
