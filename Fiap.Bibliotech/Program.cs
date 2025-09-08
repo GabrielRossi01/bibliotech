@@ -73,7 +73,7 @@ class Program
             titulo = Console.ReadLine()?.Trim();
             if (string.IsNullOrEmpty(titulo))
             {
-                Console.WriteLine("Título inválido. DIgite novamente");
+                Console.WriteLine("Título inválido. Digite novamente.");
             }
         } while (string.IsNullOrEmpty(titulo));
 
@@ -106,7 +106,7 @@ class Program
             titulo = Console.ReadLine()?.Trim();
             if (string.IsNullOrEmpty(titulo))
             {
-                Console.WriteLine("Título inválido. Digite novamente");
+                Console.WriteLine("Título inválido. Digite novamente.");
             }
         } while (string.IsNullOrEmpty(titulo));
 
@@ -129,7 +129,7 @@ class Program
 
         if (itens.Count == 0)
         {
-            Console.WriteLine("Nenhum item cadastrado ainda");
+            Console.WriteLine("Nenhum item cadastrado ainda.");
         }
         else
         {
